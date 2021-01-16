@@ -23,7 +23,7 @@ class Line // Структура описывающая очередь
 	{
 		first = (Node*)malloc(sizeof(Node));
 		*first = Node();
-
+		
 		for (int i = 0; i < size; i++)
 			first->data[i] = mass[i];
 		
